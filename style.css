@@ -345,7 +345,7 @@ nav {
 
 #networkCanvas {
   z-index: 2;
-  opacity: .9;
+  opacity: .6;
 }
 
 [data-theme="light"] #matrixCanvas {
@@ -383,7 +383,7 @@ nav {
   z-index: 4;
   pointer-events: none;
   background: radial-gradient(ellipse 85% 85% at 50% 50%, transparent 40%, var(--bg) 100%);
-  opacity: .72;
+  opacity: .5;
 }
 
 /* Aurora shafts */
@@ -700,6 +700,7 @@ nav {
   max-width: 490px;
   opacity: 0;
   animation: fadeUp .8s ease forwards .85s;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero-subtitle strong {
