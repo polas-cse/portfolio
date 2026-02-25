@@ -1235,6 +1235,18 @@ section {
   text-shadow: 0 0 22px var(--cyan-glow);
 }
 
+.t-company a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.t-company a:hover {
+  color: var(--green);
+  text-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+  transform: translateY(-2px);
+}
+
 .t-role-badge {
   font-family: 'JetBrains Mono', monospace;
   font-size: .58rem;
